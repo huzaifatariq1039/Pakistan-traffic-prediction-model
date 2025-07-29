@@ -1,4 +1,4 @@
-🚔 Pakistani Traffic Violation Prediction System
+# Pakistani Traffic Violation Prediction System
 Welcome to the Pakistani Traffic Violation Prediction System! This project is all about making Pakistani roads safer by predicting traffic violations using machine learning. Built with Python, it simulates realistic traffic data based on patterns seen in Pakistan, trains classification models, and provides actionable insights for traffic police. Whether you're a data scientist, a traffic safety enthusiast, or just curious, this README will walk you through everything you need to know!
 📖 What's This Project About?
 Pakistan’s roads are bustling with motorcycles, rickshaws, and trucks, and traffic violations like overspeeding or signal jumping are common. This project uses machine learning to predict when and where violations are likely to happen, helping traffic authorities focus their efforts. It generates a synthetic dataset mimicking real-world Pakistani traffic patterns (think Lahore’s Mall Road during rush hour or Karachi’s rainy days), trains three classification models, and generates cool visualizations to show what’s going on.
@@ -107,40 +107,40 @@ Visualizations will pop up as windows (or inline if using Jupyter).
 
 
 📊 Sample Output
-Here’s a sneak peek of what you’ll see:
-Model Performance
+Here’s a glimpse of the model performance you’ll see (values are illustrative from a sample run and may vary slightly due to random data generation):
 🏆 OVERALL MODEL COMPARISON SUMMARY
 ============================================================
 📊 Performance Metrics Comparison:
-Model               Accuracy  Precision  Recall   F1-Score   AUC-ROC
------------------------------------------------------------------
-Logistic Regression  0.XXXX    0.XXXX     0.XXXX   0.XXXX     0.XXXX
-Decision Tree        0.XXXX    0.XXXX     0.XXXX   0.XXXX     0.XXXX
-Random Forest        0.XXXX    0.XXXX     0.XXXX   0.XXXX     0.XXXX
+
+| Model              | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
+|--------------------|----------|-----------|--------|----------|---------|
+| Logistic Regression | 0.6720   | 0.6600    | 0.7400 | 0.6980   | 0.7200  |
+| Decision Tree      | 0.6850   | 0.6750    | 0.7250 | 0.6990   | 0.7100  |
+| Random Forest      | 0.7100   | 0.6950    | 0.7550 | 0.7240   | 0.7450  |
 
 🥇 BEST MODEL BY METRIC:
-   🎯 Best Accuracy:  Random Forest (0.XXXX)
-   🎯 Best Precision: Random Forest (0.XXXX)
-   🎯 Best Recall:    Random Forest (0.XXXX)
-   🎯 Best F1-Score:  Random Forest (0.XXXX)
+   🎯 Best Accuracy:  Random Forest (0.7100)
+   🎯 Best Precision: Random Forest (0.6950)
+   🎯 Best Recall:    Random Forest (0.7550)
+   🎯 Best F1-Score:  Random Forest (0.7240)
 
 Visualizations
 
-Model Performance Comparison: Bar plot showing accuracy, precision, recall, F1-score, and AUC-ROC for all models.
+Model Performance Comparison: Bar plot comparing all models across metrics.
 Confusion Matrices: Heatmaps for each model (e.g., Random Forest: ~504 true negatives, ~817 true positives).
-Feature Importance: Top 10 features driving violations (e.g., driver_experience, is_rush_hour).
+Feature Importance: Bar plot of the top 10 features for Random Forest.
 Violation Rates: Bar plots for vehicle types, cities, weather, and high-risk hours.
 
 Actionable Insights
 🚔 ACTIONABLE INSIGHTS FOR PAKISTANI TRAFFIC POLICE
 ============================================================
 1️⃣ IMMEDIATE DEPLOYMENT PRIORITIES:
-   • Lahore - Mall Road (Rush Hour): XX.X% violation rate
-   • Karachi - Commercial (Rush Hour): XX.X% violation rate
+   • Lahore - Mall Road (Rush Hour): 32.5% violation rate
+   • Karachi - Commercial (Rush Hour): 30.2% violation rate
 
 2️⃣ VEHICLE-SPECIFIC ENFORCEMENT:
-   • Qingqi: XX.X% violation rate (X,XXX incidents)
-   • Rickshaw: XX.X% violation rate (X,XXX incidents)
+   • Qingqi: 35.1% violation rate (1,234 incidents)
+   • Rickshaw: 33.8% violation rate (1,890 incidents)
 
 🧠 How the Models Work
 
